@@ -1,0 +1,30 @@
+{
+  "name": "PGNetworkKit",
+  "version": "0.1.0",
+  "summary": "A short description of PGNetworkKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ZLJZ/PGNetworkKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Cicada": "wuxl@orbyun.com"
+  },
+  "source": {
+    "git": "https://github.com/ZLJZ/PGNetworkKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PGNetworkKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1.0"
+    ],
+    "Reachability": [
+      "~> 3.2"
+    ]
+  }
+}

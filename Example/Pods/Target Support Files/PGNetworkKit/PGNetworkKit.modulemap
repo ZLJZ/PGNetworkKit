@@ -1,0 +1,6 @@
+framework module PGNetworkKit {
+  umbrella header "PGNetworkKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
