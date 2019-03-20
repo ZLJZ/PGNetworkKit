@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "HttpRequest.h"
-#import "AFNetworking.h"
 
 @class ORBNet;
 
