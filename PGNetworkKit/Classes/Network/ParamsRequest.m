@@ -181,7 +181,7 @@ static float num;
         }
 
 //        isEncryption = NO;
-        [paraDic setValue:kString_Format(@"%d", isEncryption) forKey:@"secret"];
+        [paraDic setValue:[NSString stringWithFormat:@"%d",isEncryption] forKey:@"secret"];
         
         if (parameters) {
 //            if (isEncryption && [TradeScnoManage isPassWord]) {
