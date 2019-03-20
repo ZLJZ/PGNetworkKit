@@ -7,6 +7,8 @@
 //
 
 #import "NetworkTool.h"
+#import "HttpRequest.h"
+#import "Reachability.h"
 
 @implementation NetworkTool
 

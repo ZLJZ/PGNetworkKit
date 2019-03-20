@@ -7,6 +7,7 @@
 //
 
 #import "ParamsRequest.h"
+#import "HttpRequest.h"
 
 static float num;
 @interface ParamsRequest ()

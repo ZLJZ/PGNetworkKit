@@ -7,6 +7,7 @@
 //
 
 #import "NetworkRequest.h"
+#import "HttpRequest.h"
 
 @implementation NetworkRequest
 
