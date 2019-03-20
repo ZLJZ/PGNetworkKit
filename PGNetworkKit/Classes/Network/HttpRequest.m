@@ -10,6 +10,8 @@
 #import "NetworkTool.h"
 #import "AFNetworking.h"
 
+#define REQUEST_TIMEOUT             @"requestTimeout"
+#define REQUEST_TIMEOUT_INTERVAL    [[[NSUserDefaults standardUserDefaults] objectForKey:REQUEST_TIMEOUT] doubleValue]
 
 NSString *const PanGuHttpErrorDomain = @"PanGuHttpErrorDomain";
 

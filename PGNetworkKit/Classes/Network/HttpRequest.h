@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <Reachability/Reachability.h>
-#define REQUEST_TIMEOUT_INTERVAL    [[defaults objectForKey:REQUEST_TIMEOUT] doubleValue]
+
 #define K_VERSION_SHORT  [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
 
 @class AFHTTPSessionManager;
