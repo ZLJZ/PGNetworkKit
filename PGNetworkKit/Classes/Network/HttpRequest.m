@@ -8,6 +8,8 @@
 
 #import "HttpRequest.h"
 #import "NetworkTool.h"
+#import "AFNetworking.h"
+
 
 NSString *const PanGuHttpErrorDomain = @"PanGuHttpErrorDomain";
 

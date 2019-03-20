@@ -79,7 +79,6 @@ static float num;
         }];
         
     }@catch(NSException *exception){
-        P_Log(@"NSURLSessionTask: 下载数据失败%@",[exception reason]);
         
     }
     @finally{
@@ -137,7 +136,6 @@ static float num;
         }];
         
     }@catch(NSException *exception){
-        P_Log(@"NSURLSessionTask: 下载数据失败%@",[exception reason]);
         
     }
     @finally{
@@ -216,7 +214,6 @@ static float num;
         }];
         
     }@catch(NSException *exception){
-        P_Log(@"NSURLSessionTask: 下载数据失败%@",[exception reason]);
         
         NSError *error = [[NSError alloc] initWithDomain:NSUnderlyingErrorKey code:-5692 userInfo:nil];
         failure(error, nil);
@@ -286,7 +283,6 @@ static float num;
         
         
     }@catch(NSException *exception){
-        P_Log(@"NSURLSessionTask: 下载数据失败%@",[exception reason]);
         
     }
     @finally{
@@ -351,7 +347,6 @@ static float num;
                
         
     }@catch(NSException *exception){
-        P_Log(@"NSURLSessionTask: 下载数据失败%@",[exception reason]);
         
     }
     @finally{
